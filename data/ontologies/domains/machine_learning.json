@@ -1,0 +1,342 @@
+{
+  "classes": [
+    {
+      "created_at": "2026-08-10T06:56:50.837819Z",
+      "updated_at": "2026-08-10T06:56:50.837822Z",
+      "id": "ceb151cf-6d5f-464e-b4e2-287c3c9b17aa",
+      "name": "Model",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A trainable predictive/generative system.",
+      "aliases": [],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.837842Z",
+      "updated_at": "2026-08-10T06:56:50.837842Z",
+      "id": "91fc1c17-18e4-4a00-bca5-ed9728b8a8da",
+      "name": "LossFunction",
+      "subject": "machine_learning",
+      "parent_class_id": "239dc37f-5475-45bc-93df-69a33e3bb3d1",
+      "description": "An objective function minimized during training.",
+      "aliases": [],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T07:02:12.548755Z",
+      "updated_at": "2026-08-10T07:02:12.548756Z",
+      "id": "a75d27c7-b470-4814-8dd6-32106bb0aa87",
+      "name": "TrainingLoop",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The iterative loop that updates model parameters.",
+      "aliases": [
+        "training procedure"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:20:12.372250Z",
+      "updated_at": "2026-09-17T09:20:12.372250Z",
+      "id": "467e98df-856b-4ac9-a7ff-7faf5c6609be",
+      "name": "Gradient",
+      "subject": "machine_learning",
+      "parent_class_id": null,
+      "description": "A vector of partial derivatives representing the slope of a function with respect to its parameters.",
+      "aliases": [
+        "Gradient Vector"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T10:45:35.207130Z",
+      "updated_at": "2026-09-17T10:45:35.207130Z",
+      "id": "126f70be-9a54-460a-8e66-0fa1d2fd0a0f",
+      "name": "Backpropagation",
+      "subject": "machine_learning",
+      "parent_class_id": "c02a1738-ad09-482e-a6be-1d5b134e3ac5",
+      "description": "An algorithm used to compute gradients efficiently across layers in neural networks.",
+      "aliases": [
+        "Backprop"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:47:45.015406Z",
+      "updated_at": "2026-09-17T11:47:45.015406Z",
+      "id": "9ea86881-2419-408c-bd6d-57cf9c319e48",
+      "name": "FeatureSelection",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The process of selecting or engineering relevant features from data to improve the performance of machine learning models.",
+      "aliases": [
+        "Feature Engineering",
+        "Feature Extraction"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:47:45.020412Z",
+      "updated_at": "2026-09-17T11:47:45.020412Z",
+      "id": "a2b0e593-a973-41c2-b4e3-90b43493109a",
+      "name": "EnsembleLearning",
+      "subject": "machine_learning",
+      "parent_class_id": "c02a1738-ad09-482e-a6be-1d5b134e3ac5",
+      "description": "A machine learning approach that combines multiple models to improve predictive performance.",
+      "aliases": [
+        "Ensemble Methods",
+        "Ensemble Techniques"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:47:45.031824Z",
+      "updated_at": "2026-09-17T11:47:45.031824Z",
+      "id": "da93be33-b9b1-4c30-9d71-f3895ef4bc2a",
+      "name": "TangentSpaceEmbedding",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A technique for mapping symmetric positive-definite matrices onto a flat tangent space for robust comparisons.",
+      "aliases": [
+        "Tangent Space Mapping",
+        "Riemannian Tangent Space"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:47:45.043338Z",
+      "updated_at": "2026-09-17T11:47:45.043338Z",
+      "id": "029f703d-cb78-4fc2-942b-1e8b2f4ee8ec",
+      "name": "FunctionalConnectivity",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The statistical relationship between different regions of the brain, often measured using techniques like fMRI.",
+      "aliases": [
+        "Brain Connectivity",
+        "Neural Connectivity"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.837847Z",
+      "updated_at": "2026-08-10T06:56:50.837847Z",
+      "id": "7d368f71-4af2-46d7-9743-d7428f6ff4b1",
+      "name": "Dataset",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A structured collection of training/evaluation examples.",
+      "aliases": [
+        "rs-fMRI"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:50:16.444307Z",
+      "updated_at": "2026-09-17T11:50:16.444307Z",
+      "id": "d3556a06-5ea3-447a-a5aa-297f0b6ba3da",
+      "name": "FeatureEngineering",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The process of creating, modifying, or selecting features to improve the performance of machine learning models.",
+      "aliases": [
+        "Feature Engineering",
+        "Feature Construction"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:50:16.448394Z",
+      "updated_at": "2026-09-17T11:50:16.448394Z",
+      "id": "18d98347-b149-40de-a4c9-49ac1ac609eb",
+      "name": "CrossValidation",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A statistical method used to evaluate the performance of a machine learning model by partitioning data into training and testing subsets.",
+      "aliases": [
+        "Cross-Validation",
+        "CV"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:50:16.464478Z",
+      "updated_at": "2026-09-17T11:50:16.464478Z",
+      "id": "6b706846-c435-462b-b826-82e0d8b7e282",
+      "name": "SiteHarmonization",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The process of reducing variability in data collected from multiple sites to ensure consistency and comparability.",
+      "aliases": [
+        "Site Harmonization",
+        "Inter-Site Harmonization"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:50:16.473806Z",
+      "updated_at": "2026-09-17T11:50:16.473806Z",
+      "id": "d389e81e-2921-4a61-a6c1-32e0dc941e0b",
+      "name": "DatasetQualityControl",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The process of ensuring data quality by filtering out samples that do not meet predefined criteria.",
+      "aliases": [
+        "Quality Control",
+        "Data Filtering"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T06:19:33.802282Z",
+      "updated_at": "2026-09-18T06:19:33.802282Z",
+      "id": "34a29ab3-ae9a-49b6-b1f1-1f0261096f2c",
+      "name": "AutismSpectrumDisorder",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A neurodevelopmental condition characterized by deficits in social communication and restricted, repetitive behaviors.",
+      "aliases": [
+        "ASD"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T06:19:33.804504Z",
+      "updated_at": "2026-09-18T06:19:33.804504Z",
+      "id": "b3254e7d-002e-4813-906d-164d4bf82fb9",
+      "name": "FunctionalConnectivityFeature",
+      "subject": "machine_learning",
+      "parent_class_id": "d3556a06-5ea3-447a-a5aa-297f0b6ba3da",
+      "description": "A feature derived from functional connectivity data, such as Pearson correlation or tangent space embedding, used in machine learning models.",
+      "aliases": [
+        "ConnectivityFeature"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T06:19:33.818590Z",
+      "updated_at": "2026-09-18T06:19:33.818590Z",
+      "id": "a74e6950-71c0-433e-8525-f302dd683604",
+      "name": "TangentSpaceEmbeddingFeature",
+      "subject": "machine_learning",
+      "parent_class_id": null,
+      "description": "A feature derived from tangent space embedding of connectivity matrices, used to capture geometric properties of brain networks.",
+      "aliases": [
+        "TangentFeature"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T06:19:33.830246Z",
+      "updated_at": "2026-09-18T06:19:33.830246Z",
+      "id": "ad89b91e-4d0b-4608-80e3-0833b7d99ca6",
+      "name": "PearsonCorrelationFeature",
+      "subject": "machine_learning",
+      "parent_class_id": null,
+      "description": "A feature derived from Pearson correlation coefficients between brain regions, used to quantify linear relationships in functional connectivity.",
+      "aliases": [
+        "PearsonFeature"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T06:19:33.850706Z",
+      "updated_at": "2026-09-18T06:19:33.850706Z",
+      "id": "5dda9927-6a63-4dd1-a7a7-9828ba2efd60",
+      "name": "SiteEffect",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "Variability in data caused by differences in data collection sites, which can affect the generalizability of machine learning models.",
+      "aliases": [
+        "SystematicSiteEffect"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-19T05:31:36.467286Z",
+      "updated_at": "2026-09-19T05:31:36.467286Z",
+      "id": "f715c750-f016-4722-9f7b-0962b541c5a5",
+      "name": "TrainingLoop",
+      "subject": "machine_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The iterative loop that updates model parameters.",
+      "aliases": [
+        "training procedure"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    }
+  ],
+  "relations": [
+    {
+      "created_at": "2026-08-10T06:56:50.837852Z",
+      "updated_at": "2026-08-10T06:56:50.837852Z",
+      "id": "6b078da8-c798-4ed1-9597-9a2f00e3c273",
+      "name": "trained_on",
+      "subject": "machine_learning",
+      "domain_class_id": "ceb151cf-6d5f-464e-b4e2-287c3c9b17aa",
+      "range_class_id": "7d368f71-4af2-46d7-9743-d7428f6ff4b1",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Model is trained using this Dataset.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.837858Z",
+      "updated_at": "2026-08-10T06:56:50.837858Z",
+      "id": "8280de2f-2736-4b5b-bd4a-0b9e23240d26",
+      "name": "minimizes",
+      "subject": "machine_learning",
+      "domain_class_id": "ceb151cf-6d5f-464e-b4e2-287c3c9b17aa",
+      "range_class_id": "91fc1c17-18e4-4a00-bca5-ed9728b8a8da",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Model training minimizes this LossFunction.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T10:45:35.209129Z",
+      "updated_at": "2026-09-17T10:45:35.209129Z",
+      "id": "7f6d96cc-3ef6-4c14-ba85-e8cb927ec22e",
+      "name": "computes",
+      "subject": "machine_learning",
+      "domain_class_id": "c02a1738-ad09-482e-a6be-1d5b134e3ac5",
+      "range_class_id": "467e98df-856b-4ac9-a7ff-7faf5c6609be",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Indicates that an algorithm computes a gradient.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T06:19:33.841331Z",
+      "updated_at": "2026-09-18T06:19:33.841331Z",
+      "id": "cb53eea8-0caa-497e-9e77-d4842829b4a3",
+      "name": "improves",
+      "subject": "machine_learning",
+      "domain_class_id": "d3556a06-5ea3-447a-a5aa-297f0b6ba3da",
+      "range_class_id": "ceb151cf-6d5f-464e-b4e2-287c3c9b17aa",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Indicates that a feature engineering technique improves the performance of a machine learning model.",
+      "version": "1.0.0"
+    }
+  ]
+}

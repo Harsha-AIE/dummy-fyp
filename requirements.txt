@@ -1,0 +1,66 @@
+# ---- Core ----
+pydantic==2.9.2
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+typing-extensions==4.12.2
+numpy>=1.24.4,<2.0.0
+# ---- Logging ----
+structlog==24.4.0
+rich==13.9.4
+
+# ---- Pipeline / CLI ----
+typer==0.13.1
+
+# ---- Document Processing (later modules, listed now per spec) ----
+pypdf==5.1.0
+python-docx==1.1.2
+paddleocr
+paddlepaddle==2.6.2
+pdf2image==1.17.0
+Pillow==11.0.0
+
+# ---- NLP / Entity & Relation Extraction ----
+spacy==3.8.2
+keybert==0.8.5
+yake==0.4.8
+scikit-learn==1.5.2
+
+# ---- Embeddings / Entity Linking ----
+sentence-transformers==3.3.1
+faiss-cpu==1.8.0
+
+# ---- Agents: Knowledge Manager (RAG) hybrid retrieval ----
+rank_bm25==0.2.2
+
+# ---- Agents: Knowledge Tracing (DKT) — pinned to the version already
+# present transitively via sentence-transformers, so this doesn't trigger a
+# surprise reinstall in an environment that already has it ----
+torch==2.7.1
+
+# ---- LLM Provider ----
+openai==1.57.0
+
+# ---- Graph Storage ----
+neo4j==5.26.0
+
+# ---- Triple Validation (real SHACL, layered on top of the existing
+# rule-based domain/range checker — see modules/triple_validation) ----
+rdflib==7.1.1
+pyshacl==0.29.1
+
+# ---- Uploaded document persistence (Postgres, e.g. Neon) ----
+psycopg2-binary==2.9.9
+
+# ---- API layer ----
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.17
+
+# ---- Testing ----
+pytest==8.3.3
+pytest-cov==6.0.0
+pytest-mock==3.14.0
+
+# ---- Dev tooling ----
+mypy==1.13.0
+ruff==0.7.4

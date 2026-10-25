@@ -1,0 +1,9 @@
+import { cn } from "@/lib/utils";
+
+export function Wordmark({ className }: { className?: string }) {
+  return (
+    <span className={cn("font-heading text-lg font-semibold tracking-tight", className)}>
+      edu<span className="text-primary">KG</span>
+    </span>
+  );
+}

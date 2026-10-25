@@ -1,0 +1,126 @@
+{
+  "classes": [
+    {
+      "created_at": "2026-08-10T06:56:50.836741Z",
+      "updated_at": "2026-08-10T06:56:50.836745Z",
+      "id": "3ebc6a6a-174e-4169-b62b-41581fb45bd8",
+      "name": "DataStructure",
+      "subject": "computer_science",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "An organized way of storing and accessing data.",
+      "aliases": [],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.836775Z",
+      "updated_at": "2026-08-10T06:56:50.836776Z",
+      "id": "bac5c19b-62b0-4e73-b093-88c8b367b65d",
+      "name": "ComplexityClass",
+      "subject": "computer_science",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "An asymptotic time/space complexity classification (e.g. O(n log n)).",
+      "aliases": [],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.836783Z",
+      "updated_at": "2026-08-10T06:56:50.836784Z",
+      "id": "bc5c2825-93ea-4ebe-aaad-f37df26fe2e2",
+      "name": "DesignPattern",
+      "subject": "computer_science",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A reusable software design solution.",
+      "aliases": [],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T17:10:58.588535Z",
+      "updated_at": "2026-09-18T17:10:58.588535Z",
+      "id": "a33cb838-3ded-4a5a-9c09-66bbaf5d739d",
+      "name": "MachineLearningTechnique",
+      "subject": "computer_science",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A specific method or approach used in machine learning, such as decision tree learning, Bayesian learning, or neural networks.",
+      "aliases": [
+        "ML Technique",
+        "Learning Technique"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T17:10:58.592224Z",
+      "updated_at": "2026-09-18T17:10:58.592224Z",
+      "id": "a4147c9e-aa9f-4995-bdf1-f904928fb797",
+      "name": "DimensionalityReductionMethod",
+      "subject": "computer_science",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A method used to reduce the number of variables or dimensions in a dataset, such as principal component analysis or linear discriminant analysis.",
+      "aliases": [
+        "Dimensionality Reduction Technique"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T17:10:58.608902Z",
+      "updated_at": "2026-09-18T17:10:58.608902Z",
+      "id": "28df387b-b9d0-4958-9692-6cba476bc985",
+      "name": "ClusteringAlgorithm",
+      "subject": "computer_science",
+      "parent_class_id": "c02a1738-ad09-482e-a6be-1d5b134e3ac5",
+      "description": "An algorithm used to group data points into clusters based on similarity, such as k-means clustering or k-mode clustering.",
+      "aliases": [
+        "Clustering Method"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T17:10:58.622653Z",
+      "updated_at": "2026-09-18T17:10:58.622653Z",
+      "id": "3bd1dcf4-d55a-49c3-8aaf-eea29e406e97",
+      "name": "NeuralNetwork",
+      "subject": "computer_science",
+      "parent_class_id": "3ebc6a6a-174e-4169-b62b-41581fb45bd8",
+      "description": "A computational model inspired by the structure and function of biological neural networks, used in machine learning for tasks such as classification and regression.",
+      "aliases": [
+        "Artificial Neural Network",
+        "ANN"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    }
+  ],
+  "relations": [
+    {
+      "created_at": "2026-08-10T06:56:50.836792Z",
+      "updated_at": "2026-08-10T06:56:50.836792Z",
+      "id": "05fda294-acec-459f-a345-f635389b19c4",
+      "name": "has_complexity",
+      "subject": "computer_science",
+      "domain_class_id": "c02a1738-ad09-482e-a6be-1d5b134e3ac5",
+      "range_class_id": "bac5c19b-62b0-4e73-b093-88c8b367b65d",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Links an Algorithm to its ComplexityClass.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.836801Z",
+      "updated_at": "2026-08-10T06:56:50.836801Z",
+      "id": "6528068d-017d-4d13-aea7-8a8a39944ce9",
+      "name": "operates_on",
+      "subject": "computer_science",
+      "domain_class_id": "c02a1738-ad09-482e-a6be-1d5b134e3ac5",
+      "range_class_id": "3ebc6a6a-174e-4169-b62b-41581fb45bd8",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Algorithm primarily operates on this DataStructure.",
+      "version": "1.0.0"
+    }
+  ]
+}

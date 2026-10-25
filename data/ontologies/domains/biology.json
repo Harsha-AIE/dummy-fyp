@@ -1,0 +1,861 @@
+{
+  "classes": [
+    {
+      "created_at": "2026-08-10T15:59:59.997061Z",
+      "updated_at": "2026-08-10T15:59:59.997061Z",
+      "id": "8635beb5-beee-4175-83bd-d99f0155a518",
+      "name": "TrainingLoop",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The iterative loop that updates model parameters.",
+      "aliases": [
+        "training procedure"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:22:02.494662Z",
+      "updated_at": "2026-09-17T09:22:02.494662Z",
+      "id": "2c0a0077-b498-4df7-89fe-b6b0c2d3fb78",
+      "name": "GenomeSequencing",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The process of determining the complete DNA sequence of an organism's genome.",
+      "aliases": [
+        "DNA Sequencing"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:22:02.507791Z",
+      "updated_at": "2026-09-17T09:22:02.507791Z",
+      "id": "7beb634c-b3a7-4641-9b51-b9750b09a84e",
+      "name": "AntibioticResistance",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The ability of microorganisms to withstand the effects of antibiotics that once killed them or inhibited their growth.",
+      "aliases": [
+        "Antimicrobial Resistance"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:22:02.518047Z",
+      "updated_at": "2026-09-17T09:22:02.518047Z",
+      "id": "3596f91a-1200-4bae-8248-4e30afd6c71d",
+      "name": "AntibioticDiscovery",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The process of identifying and developing new antibiotics, often through traditional or genome-guided methods.",
+      "aliases": [
+        "Discovery of Antibiotics"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:23:59.599022Z",
+      "updated_at": "2026-09-17T09:23:59.599022Z",
+      "id": "7578adb6-c533-49f1-bb07-89334e800518",
+      "name": "GenomeMining",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The process of analyzing DNA sequences to identify biosynthetic gene clusters and other genetic elements that may produce useful secondary metabolites.",
+      "aliases": [
+        "Mining Genomes",
+        "Genomic Mining"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:23:59.600527Z",
+      "updated_at": "2026-09-17T09:23:59.600527Z",
+      "id": "13d0c159-9a23-4be3-a6cf-34992e04d488",
+      "name": "AntibioticProducingMicroorganism",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "Microorganisms such as bacteria and fungi that are known to produce antibiotics, including Streptomyces, Micromonospora, and Penicillium.",
+      "aliases": [
+        "Antibiotic-Producing Organism",
+        "Microorganisms for Antibiotics"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:25:48.903846Z",
+      "updated_at": "2026-09-17T09:25:48.903846Z",
+      "id": "73cd1c44-8229-4bdf-a937-ba2a619ee197",
+      "name": "DNASequencing",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The process of determining the nucleotide sequence of a DNA molecule, which is critical for identifying biosynthetic gene clusters and discovering novel antibiotics.",
+      "aliases": [
+        "Genome Sequencing"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:25:48.905406Z",
+      "updated_at": "2026-09-17T09:25:48.905406Z",
+      "id": "8bfe11bb-efe3-4f26-ab92-a56cc1b6a9a2",
+      "name": "SecondaryMetabolite",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "Compounds produced by microorganisms that are not directly involved in their growth or reproduction but often have important ecological or medical functions, such as antibiotics.",
+      "aliases": [
+        "Natural Product"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:22:02.491664Z",
+      "updated_at": "2026-09-17T09:22:02.491664Z",
+      "id": "a7a80066-a189-4d8b-96e2-a90c83b764bc",
+      "name": "BiosyntheticGeneCluster",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A group of neighboring genes that work together to produce a specific natural product, such as an antibiotic.",
+      "aliases": [
+        "BGC"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:25:48.928075Z",
+      "updated_at": "2026-09-17T09:25:48.928075Z",
+      "id": "5d701a2a-e055-4525-9a8d-7b4462af4e19",
+      "name": "AntimicrobialResistance",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The ability of microorganisms to resist the effects of antimicrobial drugs, making infections harder to treat.",
+      "aliases": [
+        "AMR"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:27:12.804625Z",
+      "updated_at": "2026-09-17T09:27:12.804625Z",
+      "id": "ec9fe68f-7337-465c-a325-ba62975a7345",
+      "name": "GenomeGuidedDiscovery",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A method of antibiotic discovery that uses genome sequencing to identify promising biosynthetic gene clusters for targeted investigation.",
+      "aliases": [
+        "Genome-Based Discovery",
+        "Genome-Driven Discovery"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:27:12.805631Z",
+      "updated_at": "2026-09-17T09:27:12.805631Z",
+      "id": "ef358c6b-46d4-4f41-953f-4105b7b3dbb3",
+      "name": "AntibioticProducingOrganism",
+      "subject": "biology",
+      "parent_class_id": "13d0c159-9a23-4be3-a6cf-34992e04d488",
+      "description": "An organism capable of producing antibiotics, including bacteria and fungi such as Streptomyces, Bacillus, Penicillium, and Aspergillus.",
+      "aliases": [
+        "Antibiotic-Producing Species",
+        "Antibiotic-Producing Microbe"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:27:12.815754Z",
+      "updated_at": "2026-09-17T09:27:12.815754Z",
+      "id": "b3eb2671-a170-49ba-b76f-c0ae10bb3fba",
+      "name": "ResearchPaper",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A scholarly article published in a scientific journal, often reporting original research findings.",
+      "aliases": [
+        "Scientific Article",
+        "Journal Article"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:49:58.021863Z",
+      "updated_at": "2026-09-17T09:49:58.021863Z",
+      "id": "2b81d6bf-ffea-4875-8ad5-d9d9b313a376",
+      "name": "GenomeMiningAdvantages",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A concept describing the advantages of genome mining, such as the ability to detect silent or hidden gene clusters and increase the chances of discovering novel antibiotics.",
+      "aliases": [
+        "Benefits of Genome Mining",
+        "Genome Mining Benefits"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:49:58.023864Z",
+      "updated_at": "2026-09-17T09:49:58.023864Z",
+      "id": "30ddec19-6495-429f-a98b-d6bca9618fbb",
+      "name": "AntibioticProducingFungi",
+      "subject": "biology",
+      "parent_class_id": "ef358c6b-46d4-4f41-953f-4105b7b3dbb3",
+      "description": "A class representing fungi that are known to produce antibiotics, such as Penicillium and Aspergillus.",
+      "aliases": [
+        "Fungi Producing Antibiotics",
+        "Antibiotic-Producing Fungal Species"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:49:58.061306Z",
+      "updated_at": "2026-09-17T09:49:58.061306Z",
+      "id": "b1e62f6e-4404-4ff5-8c2f-8ac954dced3b",
+      "name": "AntibioticResistanceCrisis",
+      "subject": "biology",
+      "parent_class_id": "5d701a2a-e055-4525-9a8d-7b4462af4e19",
+      "description": "A concept describing the global health crisis caused by the increasing prevalence of antibiotic-resistant bacteria.",
+      "aliases": [
+        "Crisis of Antibiotic Resistance",
+        "Antibiotic Resistance Emergency"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:49:58.070817Z",
+      "updated_at": "2026-09-17T09:49:58.070817Z",
+      "id": "4c2d0f35-2436-4d62-b113-5c59d60fb4c4",
+      "name": "GenomeSequencingTechnology",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A class representing the various technologies and methods used for genome sequencing.",
+      "aliases": [
+        "DNA Sequencing Technology",
+        "Technologies for Genome Sequencing"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:57:54.177835Z",
+      "updated_at": "2026-09-17T09:57:54.177835Z",
+      "id": "f9e93954-79d2-4279-9a83-751961ced55b",
+      "name": "GenomeGuidedAntibioticDiscovery",
+      "subject": "biology",
+      "parent_class_id": "3596f91a-1200-4bae-8248-4e30afd6c71d",
+      "description": "A method of discovering antibiotics that begins with genome sequencing to identify promising biosynthetic gene clusters (BGCs) for targeted exploration.",
+      "aliases": [
+        "Genome-Based Antibiotic Discovery",
+        "Genome-Driven Antibiotic Discovery"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:57:54.208982Z",
+      "updated_at": "2026-09-17T09:57:54.208982Z",
+      "id": "156e09dd-0d8d-4012-b294-35ca2c7a0097",
+      "name": "AntibioticProducingBacteria",
+      "subject": "biology",
+      "parent_class_id": "13d0c159-9a23-4be3-a6cf-34992e04d488",
+      "description": "A subclass of antibiotic-producing microorganisms that specifically includes bacteria known for producing antibiotics.",
+      "aliases": [
+        "Bacterial Antibiotic Producers"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:57:54.217998Z",
+      "updated_at": "2026-09-17T09:57:54.217998Z",
+      "id": "75212bca-1574-4bb5-869d-65b953496f89",
+      "name": "AntibioticProducingFungiSpecies",
+      "subject": "biology",
+      "parent_class_id": "30ddec19-6495-429f-a98b-d6bca9618fbb",
+      "description": "A subclass of antibiotic-producing fungi that includes specific fungal species known for producing antibiotics.",
+      "aliases": [
+        "Fungal Antibiotic Producers"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T10:33:55.261557Z",
+      "updated_at": "2026-09-17T10:33:55.261557Z",
+      "id": "8f8d5107-a0dd-4dfb-9ff1-33f1f758f171",
+      "name": "GenomeGuidedAntibioticDiscoveryExample",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A specific instance or case study demonstrating the use of genome-guided approaches in antibiotic discovery.",
+      "aliases": [
+        "Genome-Guided Discovery Example",
+        "Genome-Based Antibiotic Discovery Case Study"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T10:33:55.264654Z",
+      "updated_at": "2026-09-17T10:33:55.264654Z",
+      "id": "67dcfe1d-f506-4256-a06c-62c2ba4326aa",
+      "name": "AntibioticProducingActinobacteria",
+      "subject": "biology",
+      "parent_class_id": "13d0c159-9a23-4be3-a6cf-34992e04d488",
+      "description": "A class representing Actinobacteria, a group of microorganisms known for their ability to produce antibiotics.",
+      "aliases": [
+        "Actinobacteria Producing Antibiotics",
+        "Antibiotic-Producing Actinomycetes"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T10:33:55.290217Z",
+      "updated_at": "2026-09-17T10:33:55.290217Z",
+      "id": "2e7420b8-fdbc-4470-8452-d99c12e9789b",
+      "name": "AntibioticProducingActinobacteriaSpecies",
+      "subject": "biology",
+      "parent_class_id": null,
+      "description": "A class representing specific species of Actinobacteria known for their antibiotic production.",
+      "aliases": [
+        "Actinobacteria Species Producing Antibiotics"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T10:33:55.298722Z",
+      "updated_at": "2026-09-17T10:33:55.298722Z",
+      "id": "abe0eadd-ec82-4da4-b5b1-7c620d789a1d",
+      "name": "AntibioticDiscoveryMethod",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A class representing various methods used in the discovery of antibiotics, including traditional and genome-guided approaches.",
+      "aliases": [
+        "Methods of Antibiotic Discovery",
+        "Antibiotic Discovery Techniques"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:18:02.430373Z",
+      "updated_at": "2026-09-17T11:18:02.430373Z",
+      "id": "7f805b59-d084-4257-911b-1d3c872f5979",
+      "name": "GenomeMiningMethod",
+      "subject": "biology",
+      "parent_class_id": "7578adb6-c533-49f1-bb07-89334e800518",
+      "description": "A specific method or approach used in genome mining to identify biosynthetic gene clusters or other genomic features.",
+      "aliases": [
+        "Genome Mining Technique",
+        "Genome Mining Approach"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:18:02.432952Z",
+      "updated_at": "2026-09-17T11:18:02.432952Z",
+      "id": "1dcdfce3-1be0-4e54-be09-9099791e4e64",
+      "name": "AntibioticProducingActinomycetes",
+      "subject": "biology",
+      "parent_class_id": "156e09dd-0d8d-4012-b294-35ca2c7a0097",
+      "description": "A group of bacteria within the Actinomycetales order known for producing antibiotics.",
+      "aliases": [
+        "Antibiotic-Producing Actinomycetes"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:18:02.463961Z",
+      "updated_at": "2026-09-17T11:18:02.463961Z",
+      "id": "5f27c6ca-29ea-4ba6-b7d9-bf5f056c5b49",
+      "name": "MarineStreptomyces",
+      "subject": "biology",
+      "parent_class_id": null,
+      "description": "A subgroup of Streptomyces species found in marine environments, known for producing unique antibiotics.",
+      "aliases": [
+        "Marine-Derived Streptomyces"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:18:02.473479Z",
+      "updated_at": "2026-09-17T11:18:02.473479Z",
+      "id": "0919fee2-809a-45fc-a905-19d541e92655",
+      "name": "OrphanBiosyntheticGeneClusterExample",
+      "subject": "biology",
+      "parent_class_id": "a9f977d0-7503-4b43-ad9e-dffd8f400963",
+      "description": "A specific instance or case study of an orphan biosynthetic gene cluster identified through genome mining.",
+      "aliases": [
+        "Example of Orphan BGC"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:19:00.660115Z",
+      "updated_at": "2026-09-17T11:19:00.660115Z",
+      "id": "f3c82351-73b1-4c65-aa4d-f27976ca7b92",
+      "name": "GenomeMiningTool",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A software or platform used to analyze genomic data for identifying biosynthetic gene clusters and other features relevant to antibiotic discovery.",
+      "aliases": [
+        "Genome Analysis Tool",
+        "BGC Identification Tool"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:19:00.662122Z",
+      "updated_at": "2026-09-17T11:19:00.662122Z",
+      "id": "ee4f8114-dbe4-4acb-91c9-0172b7b943c9",
+      "name": "AntibioticProducingFungiGenus",
+      "subject": "biology",
+      "parent_class_id": "30ddec19-6495-429f-a98b-d6bca9618fbb",
+      "description": "A taxonomic rank representing genera of fungi known to produce antibiotics, such as Penicillium and Aspergillus.",
+      "aliases": [
+        "Fungal Genera Producing Antibiotics"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:19:00.671202Z",
+      "updated_at": "2026-09-17T11:19:00.671202Z",
+      "id": "964dda29-4828-4e94-93d5-647a1eeee545",
+      "name": "AntibioticProducingBacteriaGenus",
+      "subject": "biology",
+      "parent_class_id": "156e09dd-0d8d-4012-b294-35ca2c7a0097",
+      "description": "A taxonomic rank representing genera of bacteria known to produce antibiotics, such as Streptomyces, Micromonospora, and Bacillus.",
+      "aliases": [
+        "Bacterial Genera Producing Antibiotics"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:19:00.679201Z",
+      "updated_at": "2026-09-17T11:19:00.679201Z",
+      "id": "b99fa65e-7911-4d4e-bf23-0de85a948195",
+      "name": "AntibioticDiscoveryTask",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A specific task or activity undertaken as part of antibiotic discovery, such as identifying microorganisms or analyzing BGCs.",
+      "aliases": [
+        "Antibiotic Research Task",
+        "Discovery Task"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T06:31:09.473254Z",
+      "updated_at": "2026-09-18T06:31:09.473254Z",
+      "id": "2b3502b9-019d-4456-b12a-156867989b45",
+      "name": "GenomeMiningOutput",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "Represents the output or results obtained from genome mining, such as identified biosynthetic gene clusters and their potential for novel antibiotic discovery.",
+      "aliases": [
+        "Genome Mining Results",
+        "BGC Analysis Output"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T06:31:09.477769Z",
+      "updated_at": "2026-09-18T06:31:09.477769Z",
+      "id": "2de3904d-8783-4b63-a278-95127d5d3ebf",
+      "name": "AntibioticProducingMicroorganismExample",
+      "subject": "biology",
+      "parent_class_id": "13d0c159-9a23-4be3-a6cf-34992e04d488",
+      "description": "Specific examples of microorganisms known to produce antibiotics, such as Streptomyces, Micromonospora, and Penicillium.",
+      "aliases": [
+        "Example of Antibiotic-Producing Microorganism"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:57:54.179836Z",
+      "updated_at": "2026-09-17T09:57:54.179836Z",
+      "id": "a9f977d0-7503-4b43-ad9e-dffd8f400963",
+      "name": "OrphanBiosyntheticGeneCluster",
+      "subject": "biology",
+      "parent_class_id": "a7a80066-a189-4d8b-96e2-a90c83b764bc",
+      "description": "A biosynthetic gene cluster that has no known associated natural product, often identified through genome mining.",
+      "aliases": [
+        "Orphan BGC",
+        "Hidden Gene Cluster"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T06:31:09.531719Z",
+      "updated_at": "2026-09-18T06:31:09.531719Z",
+      "id": "b418f864-88e4-48a6-95e9-bc5f04c0378c",
+      "name": "GenomeSequencingExample",
+      "subject": "biology",
+      "parent_class_id": "2c0a0077-b498-4df7-89fe-b6b0c2d3fb78",
+      "description": "Specific examples or case studies of genome sequencing applications, such as identifying novel antibiotics.",
+      "aliases": [
+        "Example of Genome Sequencing"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T16:15:03.797083Z",
+      "updated_at": "2026-09-18T16:15:03.797083Z",
+      "id": "91f1aacf-0383-4cb4-ac3f-113227ca369c",
+      "name": "Photosynthesis",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "The process by which green plants convert sunlight, water, and carbon dioxide into glucose and oxygen.",
+      "aliases": [
+        "Process of Photosynthesis"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T16:15:03.799083Z",
+      "updated_at": "2026-09-18T16:15:03.799083Z",
+      "id": "7df006d7-de43-47e8-981b-020edfea5fa8",
+      "name": "Chlorophyll",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A pigment found in chloroplasts that absorbs light energy for photosynthesis.",
+      "aliases": [
+        "Plant Pigment"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T16:15:03.813305Z",
+      "updated_at": "2026-09-18T16:15:03.813305Z",
+      "id": "5d47e3c7-2dea-4a7f-9ef8-2d9b6eb6c062",
+      "name": "Chloroplast",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A specialized organelle in plant cells where photosynthesis takes place.",
+      "aliases": [
+        "Plant Organelle"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T16:15:03.823845Z",
+      "updated_at": "2026-09-18T16:15:03.823845Z",
+      "id": "3c87ea70-1e43-45a6-8888-dc58cdb2c487",
+      "name": "Stomata",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "Small pores on plant leaves that regulate gas exchange during photosynthesis.",
+      "aliases": [
+        "Leaf Pores"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-10-24T13:50:14.038095Z",
+      "updated_at": "2026-10-24T13:50:14.038095Z",
+      "id": "6711a66e-ced3-4704-a2c3-506d2b58ac2f",
+      "name": "GenomeMiningComparison",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A concept comparing traditional antibiotic discovery methods with genome-guided approaches, highlighting their differences and advantages.",
+      "aliases": [
+        "Traditional vs Genome-Guided Discovery"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-10-24T13:50:14.062298Z",
+      "updated_at": "2026-10-24T13:50:14.062298Z",
+      "id": "f95b5822-3700-43ad-9b5f-78372cea8b26",
+      "name": "AntibioticDiscoveryImportance",
+      "subject": "biology",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A concept explaining why discovering new antibiotics is crucial for public health and combating antibiotic resistance.",
+      "aliases": [
+        "Importance of Antibiotic Discovery"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-10-24T16:14:51.512552Z",
+      "updated_at": "2026-10-24T16:14:51.512552Z",
+      "id": "a245e0be-33bf-4670-b3f0-c4b6bf482091",
+      "name": "Glucose",
+      "subject": "biology",
+      "parent_class_id": null,
+      "description": "A simple sugar that is produced during photosynthesis and serves as an energy source for plants.",
+      "aliases": [
+        "C6H12O6",
+        "Sugar"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    }
+  ],
+  "relations": [
+    {
+      "created_at": "2026-09-17T09:23:59.610612Z",
+      "updated_at": "2026-09-17T09:23:59.610612Z",
+      "id": "11f4962c-5ffa-45f3-950e-a0c16c639b5e",
+      "name": "enables_discovery_of",
+      "subject": "biology",
+      "domain_class_id": "2c0a0077-b498-4df7-89fe-b6b0c2d3fb78",
+      "range_class_id": "3596f91a-1200-4bae-8248-4e30afd6c71d",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Indicates that genome sequencing enables or facilitates the discovery of new antibiotics.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:49:58.042168Z",
+      "updated_at": "2026-09-17T09:49:58.042168Z",
+      "id": "24c9c64b-ee21-4ed3-824e-faadd581da9e",
+      "name": "produces_antibiotic",
+      "subject": "biology",
+      "domain_class_id": "ef358c6b-46d4-4f41-953f-4105b7b3dbb3",
+      "range_class_id": "3596f91a-1200-4bae-8248-4e30afd6c71d",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "A relation indicating that an organism produces antibiotics as part of its natural processes.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:49:58.051194Z",
+      "updated_at": "2026-09-17T09:49:58.051194Z",
+      "id": "c543f75c-17a0-46cc-9c5d-56b44063b58a",
+      "name": "contains_biosynthetic_gene_cluster",
+      "subject": "biology",
+      "domain_class_id": "ef358c6b-46d4-4f41-953f-4105b7b3dbb3",
+      "range_class_id": "a7a80066-a189-4d8b-96e2-a90c83b764bc",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "A relation indicating that an antibiotic-producing organism contains a specific biosynthetic gene cluster responsible for producing natural products.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:57:54.189886Z",
+      "updated_at": "2026-09-17T09:57:54.189886Z",
+      "id": "68ead9ae-5bcc-40c0-808a-9def0e43a5d4",
+      "name": "identified_in",
+      "subject": "biology",
+      "domain_class_id": "a7a80066-a189-4d8b-96e2-a90c83b764bc",
+      "range_class_id": "2c0a0077-b498-4df7-89fe-b6b0c2d3fb78",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Relates a biosynthetic gene cluster to the genome sequencing process in which it was identified.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T09:57:54.199398Z",
+      "updated_at": "2026-09-17T09:57:54.199398Z",
+      "id": "758d3164-9032-41cc-8d2d-08be562f261c",
+      "name": "produces_secondary_metabolite",
+      "subject": "biology",
+      "domain_class_id": "a7a80066-a189-4d8b-96e2-a90c83b764bc",
+      "range_class_id": "8bfe11bb-efe3-4f26-ab92-a56cc1b6a9a2",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Relates a biosynthetic gene cluster to the secondary metabolite it produces.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T10:33:55.273614Z",
+      "updated_at": "2026-09-17T10:33:55.273614Z",
+      "id": "cd9811e2-7a22-40d0-8bf1-7a58cd2a7c16",
+      "name": "analyzes_genome",
+      "subject": "biology",
+      "domain_class_id": "b3eb2671-a170-49ba-b76f-c0ae10bb3fba",
+      "range_class_id": "2c0a0077-b498-4df7-89fe-b6b0c2d3fb78",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "A relation indicating that a research paper involves the analysis of genome sequencing data.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T10:33:55.282124Z",
+      "updated_at": "2026-09-17T10:33:55.282124Z",
+      "id": "b4888fc0-6d1b-4932-a8d7-98186b3fec13",
+      "name": "identifies_promising_bgc",
+      "subject": "biology",
+      "domain_class_id": "7578adb6-c533-49f1-bb07-89334e800518",
+      "range_class_id": "a7a80066-a189-4d8b-96e2-a90c83b764bc",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "A relation indicating that genome mining identifies promising biosynthetic gene clusters for further study.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:18:02.445479Z",
+      "updated_at": "2026-09-17T11:18:02.445479Z",
+      "id": "71b5086f-e9d6-42fb-b3c6-cefd62282536",
+      "name": "uses_genome_sequencing",
+      "subject": "biology",
+      "domain_class_id": "ec9fe68f-7337-465c-a325-ba62975a7345",
+      "range_class_id": "2c0a0077-b498-4df7-89fe-b6b0c2d3fb78",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Indicates that genome-guided discovery involves the use of genome sequencing as a key step.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-17T11:18:02.454774Z",
+      "updated_at": "2026-09-17T11:18:02.454774Z",
+      "id": "243a958f-c013-48c6-b16f-4e1471924ec8",
+      "name": "produces_natural_product",
+      "subject": "biology",
+      "domain_class_id": "a7a80066-a189-4d8b-96e2-a90c83b764bc",
+      "range_class_id": "8bfe11bb-efe3-4f26-ab92-a56cc1b6a9a2",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Indicates that a biosynthetic gene cluster is responsible for producing a specific natural product, such as an antibiotic.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T06:31:09.496039Z",
+      "updated_at": "2026-09-18T06:31:09.496039Z",
+      "id": "10ab8c5b-fa86-418e-aae7-2bda01a68b9b",
+      "name": "analyzes_bgc",
+      "subject": "biology",
+      "domain_class_id": "7578adb6-c533-49f1-bb07-89334e800518",
+      "range_class_id": "a7a80066-a189-4d8b-96e2-a90c83b764bc",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Indicates that a genome mining process analyzes a specific biosynthetic gene cluster.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-18T06:31:09.508076Z",
+      "updated_at": "2026-09-18T06:31:09.508076Z",
+      "id": "40c73496-e77f-4115-a934-4a503f8ccfc6",
+      "name": "produces_novel_antibiotic",
+      "subject": "biology",
+      "domain_class_id": "a7a80066-a189-4d8b-96e2-a90c83b764bc",
+      "range_class_id": "3596f91a-1200-4bae-8248-4e30afd6c71d",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Indicates that a biosynthetic gene cluster is responsible for the production of a novel antibiotic.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-10-24T13:50:14.041095Z",
+      "updated_at": "2026-10-24T13:50:14.041095Z",
+      "id": "8d9b5537-7140-41b1-ae02-2e57aa392eff",
+      "name": "summarizes_findings_of",
+      "subject": "biology",
+      "domain_class_id": "fa83954c-93e0-4e40-a5b2-e35403ff8606",
+      "range_class_id": "b3eb2671-a170-49ba-b76f-c0ae10bb3fba",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Relates a person to a research paper they have summarized or reviewed for findings.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-10-24T13:50:14.052214Z",
+      "updated_at": "2026-10-24T13:50:14.052214Z",
+      "id": "cd55b092-d626-4b18-8569-b19a405b194f",
+      "name": "analyzes_genome_with_tool",
+      "subject": "biology",
+      "domain_class_id": "fa83954c-93e0-4e40-a5b2-e35403ff8606",
+      "range_class_id": "f3c82351-73b1-4c65-aa4d-f27976ca7b92",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Relates a person to a genome mining tool they use to analyze a genome.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-10-24T16:12:34.236351Z",
+      "updated_at": "2026-10-24T16:12:34.236351Z",
+      "id": "23fb94f8-2e85-4f02-ad59-f40edeb150fe",
+      "name": "regulates_gas_exchange",
+      "subject": "biology",
+      "domain_class_id": "3c87ea70-1e43-45a6-8888-dc58cdb2c487",
+      "range_class_id": "91f1aacf-0383-4cb4-ac3f-113227ca369c",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Describes the role of stomata in regulating the exchange of gases during photosynthesis.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-10-24T16:12:34.238923Z",
+      "updated_at": "2026-10-24T16:12:34.238923Z",
+      "id": "fa267782-58a1-44da-a583-ac873a3947ee",
+      "name": "produces_atp",
+      "subject": "biology",
+      "domain_class_id": "91f1aacf-0383-4cb4-ac3f-113227ca369c",
+      "range_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Indicates that photosynthesis produces ATP as part of the Calvin cycle.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-10-24T16:14:51.500041Z",
+      "updated_at": "2026-10-24T16:14:51.500041Z",
+      "id": "ccba21ee-ea28-4d92-8179-22db648c181a",
+      "name": "regulates_photosynthesis",
+      "subject": "biology",
+      "domain_class_id": "3c87ea70-1e43-45a6-8888-dc58cdb2c487",
+      "range_class_id": "91f1aacf-0383-4cb4-ac3f-113227ca369c",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Describes the role of stomata in regulating the process of photosynthesis by controlling gas exchange.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-10-24T16:14:51.503049Z",
+      "updated_at": "2026-10-24T16:14:51.503049Z",
+      "id": "6d37bfae-11b8-48a1-b33d-0b352c17dd12",
+      "name": "occurs_in_chloroplast",
+      "subject": "biology",
+      "domain_class_id": "91f1aacf-0383-4cb4-ac3f-113227ca369c",
+      "range_class_id": "5d47e3c7-2dea-4a7f-9ef8-2d9b6eb6c062",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Indicates that photosynthesis occurs within chloroplasts in plant cells.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-10-24T16:19:19.363091Z",
+      "updated_at": "2026-10-24T16:19:19.363091Z",
+      "id": "b3875cba-986c-4db9-883b-f3324a0c2d46",
+      "name": "regulates_gas_exchange_in_photosynthesis",
+      "subject": "biology",
+      "domain_class_id": "3c87ea70-1e43-45a6-8888-dc58cdb2c487",
+      "range_class_id": "91f1aacf-0383-4cb4-ac3f-113227ca369c",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "Describes the role of stomata in regulating gas exchange during the process of photosynthesis.",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "classes": [
+    {
+      "created_at": "2026-08-10T06:56:50.838782Z",
+      "updated_at": "2026-08-10T06:56:50.838783Z",
+      "id": "9c241b8b-7c0d-4102-8f9a-424b8cdf61e3",
+      "name": "GrammarRule",
+      "subject": "english",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A specific English grammar rule or tag (e.g. subject-verb agreement).",
+      "aliases": [],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.838796Z",
+      "updated_at": "2026-08-10T06:56:50.838796Z",
+      "id": "2d3fa58c-d2a5-4f10-b590-9d55a4bcdd14",
+      "name": "VocabularyItem",
+      "subject": "english",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A vocabulary word/phrase with a tested meaning or usage.",
+      "aliases": [],
+      "is_core": false,
+      "version": "1.0.0"
+    }
+  ],
+  "relations": [
+    {
+      "created_at": "2026-08-10T06:56:50.838803Z",
+      "updated_at": "2026-08-10T06:56:50.838803Z",
+      "id": "85ab273a-a8c4-4a86-9dbd-f56c0de18e11",
+      "name": "co_occurs_with",
+      "subject": "english",
+      "domain_class_id": "9c241b8b-7c0d-4102-8f9a-424b8cdf61e3",
+      "range_class_id": "2d3fa58c-d2a5-4f10-b590-9d55a4bcdd14",
+      "is_symmetric": true,
+      "is_transitive": false,
+      "description": "Tag co-occurrence signal (non-hierarchical domain).",
+      "version": "1.0.0"
+    }
+  ]
+}

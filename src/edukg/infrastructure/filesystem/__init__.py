@@ -1,0 +1,5 @@
+from edukg.infrastructure.filesystem.document_repository import FilesystemDocumentRepository
+from edukg.infrastructure.filesystem.entity_repository import FilesystemEntityRepository
+from edukg.infrastructure.filesystem.ontology_repository import FilesystemOntologyRepository
+
+__all__ = ["FilesystemDocumentRepository", "FilesystemEntityRepository", "FilesystemOntologyRepository"]

@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/cache/
+data/processed/
+logs/*.log
+.env
+*.egg-info/
+
+# Runtime/generated data — same reasoning as data/cache and data/processed
+# above: reproducible from the pipeline/scripts, not meaningful to track.
+data/ontologies/extensions/pending/
+data/ontologies/reviews/
+data/agent_logs/
+data/models/
+data/reports/

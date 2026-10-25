@@ -1,0 +1,80 @@
+{
+  "classes": [
+    {
+      "created_at": "2026-09-19T05:27:30.725397Z",
+      "updated_at": "2026-09-19T05:27:30.725397Z",
+      "id": "8bce4dfa-4c92-4882-b8e6-48593aeac334",
+      "name": "MedicalCondition",
+      "subject": "deep_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A class representing medical conditions, diseases, or disorders affecting living organisms.",
+      "aliases": [
+        "Disease",
+        "Health Condition"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-19T05:27:30.727398Z",
+      "updated_at": "2026-09-19T05:27:30.727398Z",
+      "id": "2389a4ab-824a-49e5-ae20-078a6f555894",
+      "name": "NeuralNetworkArchitecture",
+      "subject": "deep_learning",
+      "parent_class_id": "c02a1738-ad09-482e-a6be-1d5b134e3ac5",
+      "description": "A class representing specific architectures of neural networks used in machine learning and deep learning.",
+      "aliases": [
+        "Deep Learning Model",
+        "DL Architecture"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-19T05:27:30.740663Z",
+      "updated_at": "2026-09-19T05:27:30.740663Z",
+      "id": "0d78a827-b9a8-4792-89a2-7263a1f5ca7b",
+      "name": "MedicalImaging",
+      "subject": "deep_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A class representing techniques and technologies used to create visual representations of the interior of a body for clinical analysis and medical intervention.",
+      "aliases": [
+        "Medical Imaging Modality",
+        "Imaging Technique"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-19T05:27:30.750408Z",
+      "updated_at": "2026-09-19T05:27:30.750408Z",
+      "id": "b97b0f03-75cd-4706-935d-c5184a9057e2",
+      "name": "Dataset",
+      "subject": "deep_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A class representing a collection of data used for training, testing, or evaluating machine learning models.",
+      "aliases": [
+        "Data Corpus",
+        "Data Collection"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-09-19T05:27:30.759626Z",
+      "updated_at": "2026-09-19T05:27:30.759626Z",
+      "id": "1773d484-3db1-41fd-9bd8-25f723418b44",
+      "name": "LossFunction",
+      "subject": "deep_learning",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A class representing mathematical functions used to evaluate the performance of a machine learning model by quantifying the error between predicted and actual values.",
+      "aliases": [
+        "Objective Function",
+        "Cost Function"
+      ],
+      "is_core": false,
+      "version": "1.0.0"
+    }
+  ],
+  "relations": []
+}

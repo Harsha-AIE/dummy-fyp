@@ -1,0 +1,56 @@
+{
+  "classes": [
+    {
+      "created_at": "2026-08-10T06:56:50.838329Z",
+      "updated_at": "2026-08-10T06:56:50.838331Z",
+      "id": "6d7d6626-0d4f-4299-86c5-09110f378b47",
+      "name": "Proof",
+      "subject": "mathematics",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A logical argument establishing a Theorem.",
+      "aliases": [],
+      "is_core": false,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.838343Z",
+      "updated_at": "2026-08-10T06:56:50.838344Z",
+      "id": "207a0956-15fc-46e8-ab2c-a70a2933bdca",
+      "name": "Axiom",
+      "subject": "mathematics",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A statement accepted as true without proof.",
+      "aliases": [],
+      "is_core": false,
+      "version": "1.0.0"
+    }
+  ],
+  "relations": [
+    {
+      "created_at": "2026-08-10T06:56:50.838349Z",
+      "updated_at": "2026-08-10T06:56:50.838350Z",
+      "id": "ff3db992-9462-48c0-8dda-dbc5087e6b4d",
+      "name": "proves",
+      "subject": "mathematics",
+      "domain_class_id": "6d7d6626-0d4f-4299-86c5-09110f378b47",
+      "range_class_id": "a69711fb-d265-4c16-a2bb-1e2930917729",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "A Proof establishes a Theorem.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.838354Z",
+      "updated_at": "2026-08-10T06:56:50.838355Z",
+      "id": "4e6d7b4d-d3b5-4d4f-b012-a837346b60d1",
+      "name": "relies_on_axiom",
+      "subject": "mathematics",
+      "domain_class_id": "6d7d6626-0d4f-4299-86c5-09110f378b47",
+      "range_class_id": "207a0956-15fc-46e8-ab2c-a70a2933bdca",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "A Proof relies on this Axiom.",
+      "version": "1.0.0"
+    }
+  ]
+}

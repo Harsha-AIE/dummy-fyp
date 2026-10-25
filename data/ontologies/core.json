@@ -1,0 +1,143 @@
+{
+  "classes": [
+    {
+      "created_at": "2026-08-10T06:56:50.834076Z",
+      "updated_at": "2026-08-10T06:56:50.834128Z",
+      "id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "name": "Concept",
+      "subject": "unknown",
+      "parent_class_id": null,
+      "description": "A generic unit of knowledge; root of the core hierarchy.",
+      "aliases": [],
+      "is_core": true,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.834284Z",
+      "updated_at": "2026-08-10T06:56:50.834286Z",
+      "id": "e3bbbbb2-ebca-40b7-9bed-78324499dcbb",
+      "name": "Definition",
+      "subject": "unknown",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A formal statement defining a Concept.",
+      "aliases": [],
+      "is_core": true,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.834347Z",
+      "updated_at": "2026-08-10T06:56:50.834348Z",
+      "id": "a69711fb-d265-4c16-a2bb-1e2930917729",
+      "name": "Theorem",
+      "subject": "unknown",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A proven proposition.",
+      "aliases": [],
+      "is_core": true,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.834359Z",
+      "updated_at": "2026-08-10T06:56:50.834359Z",
+      "id": "c02a1738-ad09-482e-a6be-1d5b134e3ac5",
+      "name": "Algorithm",
+      "subject": "unknown",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A stepwise procedure for solving a class of problems.",
+      "aliases": [],
+      "is_core": true,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.834367Z",
+      "updated_at": "2026-08-10T06:56:50.834367Z",
+      "id": "239dc37f-5475-45bc-93df-69a33e3bb3d1",
+      "name": "Formula",
+      "subject": "unknown",
+      "parent_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "description": "A symbolic mathematical expression.",
+      "aliases": [],
+      "is_core": true,
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.834374Z",
+      "updated_at": "2026-08-10T06:56:50.834375Z",
+      "id": "fa83954c-93e0-4e40-a5b2-e35403ff8606",
+      "name": "Person",
+      "subject": "unknown",
+      "parent_class_id": null,
+      "description": "A named individual referenced in course material (e.g. a theorem's author).",
+      "aliases": [],
+      "is_core": true,
+      "version": "1.0.0"
+    }
+  ],
+  "relations": [
+    {
+      "created_at": "2026-08-10T06:56:50.834383Z",
+      "updated_at": "2026-08-10T06:56:50.834384Z",
+      "id": "baf44a4f-084f-4452-9f4b-e962b2d8f753",
+      "name": "is_prerequisite_of",
+      "subject": "unknown",
+      "domain_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "range_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "is_symmetric": false,
+      "is_transitive": true,
+      "description": "Subject concept must be understood before the object concept.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.834393Z",
+      "updated_at": "2026-08-10T06:56:50.834393Z",
+      "id": "d6a8ef76-4707-41a2-a61a-8d49dc336a52",
+      "name": "is_related_to",
+      "subject": "unknown",
+      "domain_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "range_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "is_symmetric": true,
+      "is_transitive": false,
+      "description": "A loose, non-directional relatedness between concepts.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.834400Z",
+      "updated_at": "2026-08-10T06:56:50.834401Z",
+      "id": "29090f95-5c56-4dc3-9d02-2f920a7cd711",
+      "name": "part_of",
+      "subject": "unknown",
+      "domain_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "range_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "is_symmetric": false,
+      "is_transitive": true,
+      "description": "Subject concept is a sub-component of the object concept.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.834406Z",
+      "updated_at": "2026-08-10T06:56:50.834407Z",
+      "id": "79cbddc1-68c6-4bfe-b92d-6d2245b8efa6",
+      "name": "defines",
+      "subject": "unknown",
+      "domain_class_id": "e3bbbbb2-ebca-40b7-9bed-78324499dcbb",
+      "range_class_id": "5d2be724-57c3-493c-803e-8b358bcd4506",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "A Definition formally defines a Concept.",
+      "version": "1.0.0"
+    },
+    {
+      "created_at": "2026-08-10T06:56:50.834413Z",
+      "updated_at": "2026-08-10T06:56:50.834413Z",
+      "id": "d36a842f-620d-477f-a5c0-c99653fbe5c6",
+      "name": "authored_by",
+      "subject": "unknown",
+      "domain_class_id": "a69711fb-d265-4c16-a2bb-1e2930917729",
+      "range_class_id": "fa83954c-93e0-4e40-a5b2-e35403ff8606",
+      "is_symmetric": false,
+      "is_transitive": false,
+      "description": "A Theorem (or Algorithm) is attributed to a Person.",
+      "version": "1.0.0"
+    }
+  ]
+}
